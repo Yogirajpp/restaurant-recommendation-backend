@@ -20,7 +20,8 @@ const appConfig = {
   huggingface: {
     apiKey: process.env.HUGGINGFACE_API_KEY,
     models: {
-      gptModel: process.env.GPTJ_MODEL_ID || 'EleutherAI/gpt-j-6B',
+      gptModel: process.env.GPTJ_MODEL_ID || 'EleutherAI/gpt-neo-1.3B',
+    //   gptModel: process.env.GPTJ_MODEL_ID || 'EleutherAI/gpt-j-6B',
     },
   },
   
